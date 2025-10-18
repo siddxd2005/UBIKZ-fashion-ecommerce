@@ -2,6 +2,8 @@
 
 Ubikz is a fast fashion brand website that offers fast fashion products designed using modern web technologies following a REST architecture that allows scalability and high end performance across thousands of users.
 
+📲*Deployed on- https://ubikz-fashion-ecommerce.onrender.com*
+
 ## General Features
 
 - Wide Categorization of products available across website
