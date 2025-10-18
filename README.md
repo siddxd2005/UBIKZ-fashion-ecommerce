@@ -83,8 +83,7 @@ The API documentation provides details on the endpoints and their functionalitie
 - **View Routes:**
   - `GET /api/views`: Retrieve a list of views.
 
-### Database Schema (if applicable)
-The database schema is not explicitly provided in the repository. However, the project likely uses a relational database such as MySQL or PostgreSQL. The schema would include tables for orders, products, reviews, sales, and users.
+### Database Schema
 
 ### Configuration
 Configuration settings are typically stored in environment variables or configuration files. The project uses a `.env` file to manage environment-specific settings. Example configuration settings include:
@@ -95,25 +94,6 @@ Configuration settings are typically stored in environment variables or configur
 - `DB_NAME`: Database name.
 - `JWT_SECRET`: Secret key for JSON Web Tokens.
 - `STRIPE_API_KEY`: Stripe API key for payment processing.
-
-### Development Guidelines
-Follow these guidelines for developing and maintaining the UBIKZ-fashion-ecommerce project:
-
-1. **Code Style:**
-   - Follow the Airbnb JavaScript style guide.
-   - Use consistent naming conventions and formatting.
-
-2. **Testing:**
-   - Write unit tests for controllers and models.
-   - Use a testing framework like Jest or Mocha.
-
-3. **Version Control:**
-   - Commit changes frequently with meaningful commit messages.
-   - Use feature branches for new features and bug fixes.
-
-4. **Documentation:**
-   - Document APIs and key functionalities.
-   - Keep the README file up-to-date with project information and setup instructions.
 
 ### Deployment Instructions
 To deploy the UBIKZ-fashion-ecommerce project, follow these steps:
