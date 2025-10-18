@@ -83,8 +83,6 @@ The API documentation provides details on the endpoints and their functionalitie
 - **View Routes:**
   - `GET /api/views`: Retrieve a list of views.
 
-### Database Schema
-
 ### Configuration
 Configuration settings are typically stored in environment variables or configuration files. The project uses a `.env` file to manage environment-specific settings. Example configuration settings include:
 
