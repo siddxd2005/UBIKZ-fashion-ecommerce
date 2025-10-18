@@ -18,7 +18,7 @@ Ubikz is a fast fashion brand website that offers fast fashion products designed
 The following Readme will guide you further with the project generalized documentation and workflow along with project visuals.
 
 ### Architecture Overview
-The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand website that leverages modern web technologies and follows a REST architecture. The architecture is designed to ensure scalability and high performance across thousands of users. The primary languages used are JavaScript, with frameworks such as React, Vue, Angular, Express, Next.js, and Nuxt.js.
+The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand website that leverages modern web technologies and follows a REST architecture. The architecture is designed to ensure scalability and high performance across thousands of users. The primary languages used are JavaScript,HTML,CSS,PUG TEMPLATE ENGINE and modern Node JS framework & modules. A complete log of all developer dependencies and modules used can be found in package-lock.json file attached to the repo.
 
 ### Setup & Installation
 To set up and install the UBIKZ-fashion-ecommerce project, follow these steps:
@@ -83,6 +83,10 @@ The API documentation provides details on the endpoints and their functionalitie
 - **View Routes:**
   - `GET /api/views`: Retrieve a list of views.
 
+### FEATURE BASED PROJECT DESCRIPTION
+#### - HOMEPAGE
+UBIKZ Follows a modern fast fashion brand homepage theme similar to Indian Fast Fashion brand "bewakoof" the images have been taken from bewakoof's website back from 2023 
+
 ### Configuration
 Configuration settings are typically stored in environment variables or configuration files. The project uses a `.env` file to manage environment-specific settings. Example configuration settings include:
 
@@ -92,6 +96,7 @@ Configuration settings are typically stored in environment variables or configur
 - `DB_NAME`: Database name.
 - `JWT_SECRET`: Secret key for JSON Web Tokens.
 - `STRIPE_API_KEY`: Stripe API key for payment processing.
+- Many more PROCESS ENV VARIABLES ARE UTILIZED THROUGHOUT THE PROJECT CODE...
 
 ### Deployment Instructions
 To deploy the UBIKZ-fashion-ecommerce project, follow these steps:
