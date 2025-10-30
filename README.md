@@ -143,10 +143,6 @@ The API documentation provides details on the endpoints and their functionalitie
 - **View Routes:**
   - `GET /api/views`: Retrieve a list of views.
 
-### FEATURE BASED PROJECT DESCRIPTION
-#### - HOMEPAGE
-UBIKZ Follows a modern fast fashion brand homepage theme similar to Indian Fast Fashion brand "bewakoof" the images have been taken from bewakoof's website back from 2023 
-
 ### Configuration
 Configuration settings are typically stored in environment variables or configuration files. The project uses a `.env` file to manage environment-specific settings. Example configuration settings include:
 
