@@ -4,6 +4,8 @@ Ubikz is a fast fashion brand website that offers fast fashion products designed
 
 📲*Deployed on- https://ubikz-fashion-ecommerce.onrender.com*
 
+![HomePage](./visuals/homepage-head.png)
+
 ## General Features
 
 - Wide Categorization of products available across website
@@ -20,7 +22,23 @@ Ubikz is a fast fashion brand website that offers fast fashion products designed
 The following Readme will guide you further with the project generalized documentation and workflow along with project visuals.
 
 ### Architecture Overview
-The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand website that leverages modern web technologies and follows a REST architecture. The architecture is designed to ensure scalability and high performance across thousands of users. The primary languages used are JavaScript,HTML,CSS,PUG TEMPLATE ENGINE and modern Node JS framework & modules. A complete log of all developer dependencies and modules used can be found in package-lock.json file attached to the repo.
+The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand website that leverages modern web technologies and follows a REST architecture. The architecture is designed to ensure scalability and high performance across thousands of users. The primary languages used are JavaScript,HTML,CSS,PUG TEMPLATE ENGINE and modern Node JS framework & modules. A complete log of all developer dependencies and modules used can be found in package-lock.json file attached to the repo. I would now continue by discussion individual features-
+
+#### 1. HomePage Design
+![Homepage complete](./visuals/homepage-layout.png)
+*The above homepage design was inspired from Bewakoof fast fashion ecommerce website representing a modern, clean, genz- aesthetic layout that is both minimal and easy to navigate for all users*
+
+#### 2. Authentication
+*The project follows a robust,simple,modern and effective easy to integrate authentication system goverened by my custom authController.js file built completely from scratch using modules such as bcrypt for encryption and security. This system was most popular back in 2024 when i built this website from scratch. The complete authentication system can be reviewed by accessing the authController.js file*
+- Signup
+  
+  ![Signup](./visuals/signup.png)
+- Login
+  
+  ![Login](./visuals/login.png)
+- Login Navigation
+  
+  ![Login Header](./visuals/login-header.png)
 
 ### Setup & Installation
 To set up and install the UBIKZ-fashion-ecommerce project, follow these steps:
