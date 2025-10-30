@@ -29,7 +29,7 @@ The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand w
 *The above homepage design was inspired from Bewakoof fast fashion ecommerce website representing a modern, clean, genz- aesthetic layout that is both minimal and easy to navigate for all users*
 
 #### 2. Authentication
-*The project follows a robust,simple,modern and effective easy to integrate authentication system goverened by my custom authController.js file built completely from scratch using modules such as bcrypt for encryption and security. This system was most popular back in 2024 when i built this website from scratch. The complete authentication system can be reviewed by accessing the authController.js file*
+*The project follows a robust,simple,modern and effective easy to integrate authentication system goverened by my custom authController.js file built completely from scratch using modules such as bcrypt for encryption and security. This system was most popular back in 2024 when i built this website from scratch. The complete authentication system can be reviewed by accessing the authController.js file. It allows users for easy login,signup and even password resets using Nodemailer and Brevo SMTP system. It uses the basic JWT Authentication system wherein a token is issued and valid until expiry. In my later projectssuch as DM Sales i have implemented Access Refresh token system which is considered modern and better performant for 2025 standards.*
 - Signup
   
   ![Signup](./visuals/signup.png)
@@ -39,7 +39,47 @@ The UBIKZ-fashion-ecommerce repository is a Node.js powered fast fashion brand w
 - Login Navigation
   
   ![Login Header](./visuals/login-header.png)
+- Forgot Password
+  
+  ![Forget Password](./visuals/forgot-password.png)
 
+#### Product Filtering & Aggregation
+*Through UBIKZ i have triend to implement a simple yet efficient Node JS 18 standard filtering,sorting,paginating & limiting system that allows both users and admin team to categorize products for easy access and functionality also i have attached an aggregation process that allows to extract top 5 products using the MONGO DB AGGREGATION pipeline also category wise stats. The code can be accessed from within the UTILS folder with the APIFeatures class that is a JS class based implementation to easily implement the operations using custom object flow*
+
+- Main Category Menu
+
+  ![Filtering](./visuals/menu-categories.png)
+- Mens Category Page
+  
+  ![Category Page Men](./visuals/men-category-page.png)
+- Sub Category Page
+  
+  ![Category Page Men](./visuals/subcategory-bottom-wear.png)
+
+#### USER ACCOUNT
+*The User system allows for users to easily access the account page,cart and orders section allowing for a robust user interface and design*
+- Account Page
+  
+  ![Account Page](./visuals/account.png)
+- Cart Page
+
+  ![Cart Page](./visuals/cart.png)
+- User Payments
+  *The website payments are managed by the integrated stripe module that allows for international and national payments leading to a polished user eperience currently in test mode*
+
+  ![Cart Page](./visuals/stripe-payments.png)
+  
+#### ADMIN PANEL 
+*UBIKZ offers a simple yet efficient admin panel that boasts of design simplicity and functionality while google analytics provide the basic analytical data this panel is focused on on site opertions suach as adding/removing products etc...*
+- ADMIN PAGE
+
+  ![Admin Page](./visuals/admin.png)
+- Admin Add Product
+
+  ![Admin Add Product](./visuals/admin-add-products.png)
+- Admin Update product
+  
+  ![Admin Update Product](./visuals/admin-update-products.png)
 ### Setup & Installation
 To set up and install the UBIKZ-fashion-ecommerce project, follow these steps:
 
